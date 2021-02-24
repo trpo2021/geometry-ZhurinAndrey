@@ -1,4 +1,4 @@
 all:
-gcc -Wall -Werror -o main main.c
+	g++ -Wall -Werror -o main main.cpp
 clean:
-$(RM) main
+	$(RM) main
